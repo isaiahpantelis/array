@@ -41,12 +41,12 @@ From the definition of the array types it becomes evident that, since the underl
 <sup>1</sup> `int8`, `uint8`, `int16`, `uint16`, `int32`, `uint32`, `int64`, `uint64`, `int`, `uint`, `uintptr`, `float32`, `float64`
 
 # Quickstart
-The code shown in this section can found in [cmd/quickstart](cmd/quickstart) `cmd/quickstart`.
+The code shown in this section can found in [cmd/quickstart](cmd/quickstart).
 
 ## Constructing arrays
-Make a 5x7 array of `float64`:
+Make a 7x5 array of `float64`:
 ```go
-A, _ := array.Factory().Dims(5, 7).Float64()
+A, _ := array.Factory().Dims(7, 5).Float64()
 ```
 
 Print the array:
@@ -56,10 +56,12 @@ fmt.Printf("%v\n", A)
 
 Output:
 ```
-(0,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
-(1,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
-(2,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
-(3,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
-(4,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000	      0.0000
+(0,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
+(1,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
+(2,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
+(3,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
+(4,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
+(5,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000	
+(6,0):       0.0000	      0.0000	      0.0000	      0.0000	      0.0000
 ```
 
