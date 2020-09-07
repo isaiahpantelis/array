@@ -41,4 +41,7 @@ From the definition of the array types it becomes evident that, since the underl
 <sup>1</sup> `int8`, `uint8`, `int16`, `uint16`, `int32`, `uint32`, `int64`, `uint64`, `int`, `uint`, `uintptr`, `float32`, `float64`
 
 # Quickstart
+The code shown in this section can found in `cmd/quickstart`.
+
 ## Constructing arrays
+
