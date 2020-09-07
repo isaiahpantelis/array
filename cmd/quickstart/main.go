@@ -8,7 +8,7 @@ func main() {
 	/* -------------------------------------------------------------------------------- */
 	// -- Constructing arrays
 	/* -------------------------------------------------------------------------------- */
-	// -- Make an array A
+	// -- Make a 5x7 array A
 	A, err := array.Factory().Dims(5, 7).Float64()
 	if err != nil {
 		fmt.Printf(err.Error())
