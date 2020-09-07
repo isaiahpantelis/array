@@ -11,7 +11,7 @@
 - `array` is a package that implements a common data structure; it is *not* a package for linear algebra.
 - The implementation is in pure Go (cgo is not used).
 - Arrays with [complex](https://golang.org/pkg/math/cmplx/) elements are not supported.
-- Arrays of **strings** are not supported.
+- Arrays of `strings`s are not supported.
 
 # Introduction
 For each built-in numeric type,<sup>1</sup> there is a corresponding array type. The name of the array type is the same as the name of the type of its elements, but with the first letter capitalised. For example, the type of an array of `float64` is `Float64` and the type of an array of `uint8` is `Uint8`.
