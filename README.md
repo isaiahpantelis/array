@@ -2,7 +2,7 @@
 1. [Summary](#Summary)
 1. [Introduction](#Introduction)
 1. [Quickstart](#Quickstart)
-    1. [Constructing arrays](#Constructing\ arrays)
+    1. [Constructing arrays](##Constructing\ arrays)
 
 # Summary
 `array` implements multi-dimensional numeric arrays. 
